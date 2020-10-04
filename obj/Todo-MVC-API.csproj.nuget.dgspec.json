@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/c/Users/juand/Projects/Todo-MVC-API/Todo-MVC-API.csproj": {}
+    "/Users/kevinflores/Documents/Dotnet/Todo-MVC-API/Todo-MVC-API.csproj": {}
   },
   "projects": {
-    "/mnt/c/Users/juand/Projects/Todo-MVC-API/Todo-MVC-API.csproj": {
+    "/Users/kevinflores/Documents/Dotnet/Todo-MVC-API/Todo-MVC-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/c/Users/juand/Projects/Todo-MVC-API/Todo-MVC-API.csproj",
+        "projectUniqueName": "/Users/kevinflores/Documents/Dotnet/Todo-MVC-API/Todo-MVC-API.csproj",
         "projectName": "Todo-MVC-API",
-        "projectPath": "/mnt/c/Users/juand/Projects/Todo-MVC-API/Todo-MVC-API.csproj",
-        "packagesPath": "/home/juand/.nuget/packages/",
-        "outputPath": "/mnt/c/Users/juand/Projects/Todo-MVC-API/obj/",
+        "projectPath": "/Users/kevinflores/Documents/Dotnet/Todo-MVC-API/Todo-MVC-API.csproj",
+        "packagesPath": "/Users/kevinflores/.nuget/packages/",
+        "outputPath": "/Users/kevinflores/Documents/Dotnet/Todo-MVC-API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/juand/.nuget/NuGet/NuGet.Config"
+          "/Users/kevinflores/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -36,6 +36,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[3.1.8, )"
@@ -43,6 +49,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             }
           },
           "imports": [
@@ -63,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
         }
       }
     }

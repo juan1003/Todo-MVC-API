@@ -2,13 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TodoApi.Models;
 
 namespace Todo_MVC_API.Controllers {
-    [Route("api/[TodoItems]")]
+    [Route("api/todoItems")]
     [ApiController]
     public class TodoItemsController : ControllerBase {
         private readonly TodoContext _context;
